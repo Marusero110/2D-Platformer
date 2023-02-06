@@ -2,13 +2,12 @@
 // You can write your code in this editor
 
 //Get Player Input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+key_left = -(keyboard_check(vk_left)) || (gamepad_axis_value(0, gp_axislh) < 0);
+key_right = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
+key_jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0, gp_face1));
 
 //Calculate Movement
 var move = key_right - key_left;
-
 hsp = move * walk_speed;
 vsp = vsp + grv;
 
