@@ -16,9 +16,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sprite_player_character_walking","order":3,"path":"sprites/sprite_player_character_walking/sprite_player_character_walking.yy",},
     {"name":"object_player_character","order":2,"path":"objects/object_player_character/object_player_character.yy",},
     {"name":"sprite_player_character","order":2,"path":"sprites/sprite_player_character/sprite_player_character.yy",},
     {"name":"sprite_wall","order":1,"path":"sprites/sprite_wall/sprite_wall.yy",},
     {"name":"object_wall","order":1,"path":"objects/object_wall/object_wall.yy",},
+    {"name":"sprite_player_character_running","order":4,"path":"sprites/sprite_player_character_running/sprite_player_character_running.yy",},
   ],
 }

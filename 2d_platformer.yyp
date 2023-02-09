@@ -33,11 +33,13 @@
   },
   "resources": [
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},"order":0,},
+    {"id":{"name":"sprite_player_character_walking","path":"sprites/sprite_player_character_walking/sprite_player_character_walking.yy",},"order":0,},
     {"id":{"name":"object_player_character","path":"objects/object_player_character/object_player_character.yy",},"order":0,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":0,},
     {"id":{"name":"sprite_player_character","path":"sprites/sprite_player_character/sprite_player_character.yy",},"order":0,},
     {"id":{"name":"sprite_wall","path":"sprites/sprite_wall/sprite_wall.yy",},"order":1,},
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},"order":1,},
+    {"id":{"name":"sprite_player_character_running","path":"sprites/sprite_player_character_running/sprite_player_character_running.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
