@@ -32,3 +32,18 @@ if (place_meeting(x, y + vsp, object_wall)) {
 	vsp = 0;
 }
 y = y + vsp;
+
+//Animation
+if (!place_meeting(x, y, object_wall)) {
+	//sprite_index = sprite_player_character_running;
+	//image_speed = 0;
+} else {
+	image_speed = 1;
+	if (hsp == 0) {
+		sprite_index = 0;
+	} else {
+		sprite_index = sprite_player_character_running;
+	}
+}
+
+image_xscale = -1;
