@@ -34,6 +34,7 @@
   "resources": [
     {"id":{"name":"sprite_player_character_running2","path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},"order":0,},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},"order":0,},
+    {"id":{"name":"sprite_player_character_jumping","path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},"order":0,},
     {"id":{"name":"sprite_player_character_walking","path":"sprites/sprite_player_character_walking/sprite_player_character_walking.yy",},"order":0,},
     {"id":{"name":"object_player_character","path":"objects/object_player_character/object_player_character.yy",},"order":0,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":0,},

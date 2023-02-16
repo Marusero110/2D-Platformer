@@ -34,9 +34,12 @@ if (place_meeting(x, y + vsp, object_wall)) {
 y = y + vsp;
 
 //Animation
-if (!place_meeting(x, y, object_wall)) {
-	//sprite_index = sprite_player_character_running;
-	//image_speed = 0;
+if (!place_meeting(x, y + 1, object_wall)) {
+	sprite_index = sprite_player_character_jumping;
+	image_speed = 0;
+	if (sign(vsp) > 0) {
+		image_index = 1;
+	}
 } else {
 	image_speed = 1;
 	if (hsp == 0) {
