@@ -45,7 +45,7 @@ if (!place_meeting(x, y + 1, object_wall)) {
 	if (hsp == 0) {
 		sprite_index = 0;
 	} else {
-		sprite_index = sprite_player_character_running;
+		sprite_index = sprite_player_character_running2;
 	}
 }
 
