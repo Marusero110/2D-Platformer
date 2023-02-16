@@ -59,4 +59,6 @@ if (left_movement) {
 } else if (right_movement) {
 	sprite_index = sprite_player_character_running2;
 	image_xscale = -1;
+} else {
+	sprite_index = sprite_player_character;
 }
