@@ -2,16 +2,16 @@
 // You can write your code in this editor
 
 //Get Player Input
-key_left = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
-key_right = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
-key_jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0, gp_face1));
+left_movement = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
+right_movement = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
+jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0, gp_face1));
 
 //Calculate Movement
-var move = key_right - key_left;
+var move = right_movement - left_movement;
 hsp = move * walk_speed;
 vsp = vsp + grv;
 
-if (place_meeting(x, y + 1, object_wall)) && (key_jump) {
+if (place_meeting(x, y + 1, object_wall)) && (jump) {
 	vsp = -7;
 }
 
@@ -34,11 +34,15 @@ if (place_meeting(x, y + vsp, object_wall)) {
 y = y + vsp;
 
 //Animation
+image_xscale = -1;
+/*
 if (!place_meeting(x, y + 1, object_wall)) {
 	sprite_index = sprite_player_character_jumping;
 	image_speed = 0;
 	if (sign(vsp) > 0) {
 		image_index = 1;
+	} else {
+		image_index = 0;
 	}
 } else {
 	image_speed = 1;
@@ -48,5 +52,11 @@ if (!place_meeting(x, y + 1, object_wall)) {
 		sprite_index = sprite_player_character_running2;
 	}
 }
-
-image_xscale = -1;
+*/
+if (left_movement) {
+	sprite_index = sprite_player_character_running2;
+	image_xscale = 1;
+} else if (right_movement) {
+	sprite_index = sprite_player_character_running2;
+	image_xscale = -1;
+}
