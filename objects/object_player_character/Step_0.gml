@@ -2,12 +2,12 @@
 // You can write your code in this editor
 
 //Get Player Input
-left_movement = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
-right_movement = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
+left = keyboard_check(vk_left) || (gamepad_axis_value(0, gp_axislh) < 0);
+right = keyboard_check(vk_right) || (gamepad_axis_value(0, gp_axislh) > 0);
 jump = keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0, gp_face1));
 
 //Calculate Movement
-var move = right_movement - left_movement;
+var move = right - left;
 hsp = move * walk_speed;
 vsp = vsp + grv;
 
@@ -40,10 +40,10 @@ if (!place_meeting(x, y + 1, object_wall)) {
 	image_speed = 1;
 } else {
 	image_speed = 1;
-	if (left_movement) {
+	if (left) {
 		sprite_index = sprite_player_character_running2;
 		image_xscale = 1;
-	} else if (right_movement) {
+	} else if (right) {
 		sprite_index = sprite_player_character_running2;
 		image_xscale = -1;
 	} else {
