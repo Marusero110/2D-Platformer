@@ -35,30 +35,18 @@ y = y + vsp;
 
 //Animation
 image_xscale = -1;
-/*
 if (!place_meeting(x, y + 1, object_wall)) {
 	sprite_index = sprite_player_character_jumping;
-	image_speed = 0;
-	if (sign(vsp) > 0) {
-		image_index = 1;
-	} else {
-		image_index = 0;
-	}
+	image_speed = 1;
 } else {
 	image_speed = 1;
-	if (hsp == 0) {
-		sprite_index = 0;
-	} else {
+	if (left_movement) {
 		sprite_index = sprite_player_character_running2;
+		image_xscale = 1;
+	} else if (right_movement) {
+		sprite_index = sprite_player_character_running2;
+		image_xscale = -1;
+	} else {
+		sprite_index = sprite_player_character;
 	}
-}
-*/
-if (left_movement) {
-	sprite_index = sprite_player_character_running2;
-	image_xscale = 1;
-} else if (right_movement) {
-	sprite_index = sprite_player_character_running2;
-	image_xscale = -1;
-} else {
-	sprite_index = sprite_player_character;
 }
