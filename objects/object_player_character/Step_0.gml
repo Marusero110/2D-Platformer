@@ -11,7 +11,7 @@ var move = right - left;
 hsp = move * walk_speed;
 vsp = vsp + grv;
 
-if (place_meeting(x, y + 1, object_wall)) && (jump) {
+if (place_meeting(x, y + 1, object_wall) && jump) {
 	vsp = -7;
 }
 
