@@ -35,9 +35,12 @@
     {"id":{"name":"sprite_player_character_running2","path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},"order":5,},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},"order":0,},
     {"id":{"name":"sprite_player_character_jumping","path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},"order":6,},
+    {"id":{"name":"sprite_start_screen_background","path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},"order":7,},
+    {"id":{"name":"sprite_start_screen_title","path":"sprites/sprite_start_screen_title/sprite_start_screen_title.yy",},"order":8,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"sprite_player_character_walking","path":"sprites/sprite_player_character_walking/sprite_player_character_walking.yy",},"order":3,},
     {"id":{"name":"object_player_character","path":"objects/object_player_character/object_player_character.yy",},"order":2,},
+    {"id":{"name":"Start_Screen","path":"rooms/Start_Screen/Start_Screen.yy",},"order":2,},
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":0,},
     {"id":{"name":"sprite_player_character","path":"sprites/sprite_player_character/sprite_player_character.yy",},"order":2,},
     {"id":{"name":"sprite_wall","path":"sprites/sprite_wall/sprite_wall.yy",},"order":1,},
@@ -48,6 +51,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Start_Screen","path":"rooms/Start_Screen/Start_Screen.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
