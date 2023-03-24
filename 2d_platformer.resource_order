@@ -29,6 +29,7 @@
     {"name":"sprite_player_character","order":2,"path":"sprites/sprite_player_character/sprite_player_character.yy",},
     {"name":"sprite_wall","order":1,"path":"sprites/sprite_wall/sprite_wall.yy",},
     {"name":"object_wall","order":1,"path":"objects/object_wall/object_wall.yy",},
+    {"name":"object_pause","order":4,"path":"objects/object_pause/object_pause.yy",},
     {"name":"sprite_player_character_running","order":4,"path":"sprites/sprite_player_character_running/sprite_player_character_running.yy",},
   ],
 }
