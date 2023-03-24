@@ -13,7 +13,7 @@ if (pause) { //draw frozen image to screen while paused
 	surface_reset_target();
 }//end if statement
 
-if (keyboard_check_pressed(ord("P"))) {
+if (keyboard_check_pressed(ord("P")) || gamepad_button_check_pressed(0, gp_start)) {
 	if (!pause) { //pause now
 		pause = true;
 		
