@@ -19,6 +19,7 @@
     {"name":"sprite_player_character_running2","order":5,"path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},
     {"name":"sprite_player_character_jumping","order":6,"path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},
     {"name":"sprite_start_screen_background","order":7,"path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},
+    {"name":"sprite_enemy","order":10,"path":"sprites/sprite_enemy/sprite_enemy.yy",},
     {"name":"sprite_start_screen_title","order":8,"path":"sprites/sprite_start_screen_title/sprite_start_screen_title.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"sprite_player_character_walking","order":3,"path":"sprites/sprite_player_character_walking/sprite_player_character_walking.yy",},
