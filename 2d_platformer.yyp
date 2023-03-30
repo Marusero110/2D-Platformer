@@ -35,6 +35,7 @@
   "resources": [
     {"id":{"name":"sprite_player_character_running2","path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},},
+    {"id":{"name":"menu_functions","path":"scripts/menu_functions/menu_functions.yy",},},
     {"id":{"name":"sprite_player_character_jumping","path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},},
     {"id":{"name":"sprite_start_screen_background","path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},},
     {"id":{"name":"sprite_enemy","path":"sprites/sprite_enemy/sprite_enemy.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},},
     {"id":{"name":"object_pause","path":"objects/object_pause/object_pause.yy",},},
     {"id":{"name":"sprite_player_character_running","path":"sprites/sprite_player_character_running/sprite_player_character_running.yy",},},
+    {"id":{"name":"object_enemy","path":"objects/object_enemy/object_enemy.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

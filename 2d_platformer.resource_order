@@ -32,5 +32,6 @@
     {"name":"object_wall","order":1,"path":"objects/object_wall/object_wall.yy",},
     {"name":"object_pause","order":4,"path":"objects/object_pause/object_pause.yy",},
     {"name":"sprite_player_character_running","order":4,"path":"sprites/sprite_player_character_running/sprite_player_character_running.yy",},
+    {"name":"object_enemy","order":5,"path":"objects/object_enemy/object_enemy.yy",},
   ],
 }
