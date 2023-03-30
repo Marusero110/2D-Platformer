@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sprite_player_character_running2","order":5,"path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},
+    {"name":"sprite_menu_box","order":11,"path":"sprites/sprite_menu_box/sprite_menu_box.yy",},
     {"name":"sprite_player_character_jumping","order":6,"path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},
     {"name":"sprite_start_screen_background","order":7,"path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},
     {"name":"sprite_enemy","order":10,"path":"sprites/sprite_enemy/sprite_enemy.yy",},
