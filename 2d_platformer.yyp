@@ -38,7 +38,6 @@
     {"id":{"name":"sprite_button","path":"sprites/sprite_button/sprite_button.yy",},},
     {"id":{"name":"sprite_player","path":"sprites/sprite_player/sprite_player.yy",},},
     {"id":{"name":"menu_functions","path":"scripts/menu_functions/menu_functions.yy",},},
-    {"id":{"name":"sprite_menu_box","path":"sprites/sprite_menu_box/sprite_menu_box.yy",},},
     {"id":{"name":"sprite_player_character_jumping","path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},},
     {"id":{"name":"sprite_start_screen_background","path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},},
     {"id":{"name":"sprite_enemy","path":"sprites/sprite_enemy/sprite_enemy.yy",},},
