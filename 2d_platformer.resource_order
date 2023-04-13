@@ -19,6 +19,7 @@
     {"name":"object_button_play","order":8,"path":"objects/object_button_play/object_button_play.yy",},
     {"name":"sprite_player_character_running2","order":5,"path":"sprites/sprite_player_character_running2/sprite_player_character_running2.yy",},
     {"name":"sprite_button","order":12,"path":"sprites/sprite_button/sprite_button.yy",},
+    {"name":"object_button_quit","order":9,"path":"objects/object_button_quit/object_button_quit.yy",},
     {"name":"sprite_player_character_jumping","order":6,"path":"sprites/sprite_player_character_jumping/sprite_player_character_jumping.yy",},
     {"name":"sprite_start_screen_background","order":7,"path":"sprites/sprite_start_screen_background/sprite_start_screen_background.yy",},
     {"name":"sprite_enemy","order":10,"path":"sprites/sprite_enemy/sprite_enemy.yy",},
