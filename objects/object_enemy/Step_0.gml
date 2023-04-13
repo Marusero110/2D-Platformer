@@ -28,5 +28,7 @@ if (place_meeting(x, y, object_player)) {
 	if (object_player.y < y - 16) {
 		with (object_player) vsp = -grv;
 		instance_destroy();
+	} else {
+		game_restart();
 	}
 }
